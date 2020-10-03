@@ -1,0 +1,4 @@
+# exclude weather_app
+weather_app/*
+__pycache__/*
+.vscode/*
