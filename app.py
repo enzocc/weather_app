@@ -23,7 +23,7 @@ def get_city_weather(city_name):
     """
     url = "http://api.openweathermap.org/data/2.5/weather?q={}&units={}&appid={}"   # noqa
     r = requests.get(
-        url.format(city_name, "metric", "60026bf1dd5d07bd4cfd4bed17e08f0e")
+        url.format(city_name, "metric", "YOUR_TOKEN")
     ).json()
     return r
 
